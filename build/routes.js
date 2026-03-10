@@ -15096,7 +15096,8 @@ export default {
           "embed": "默认为开启内嵌视频, 任意值为关闭"
         },
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "location": "video-all.ts",
         "module": () => import('@/routes/bilibili/video-all.ts')
@@ -44876,7 +44877,8 @@ export default {
       "/miit/wjgs": {
         "path": "/miit/wjgs",
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/miit/wjgs",
         "parameters": {},
@@ -84074,8 +84076,7 @@ export default {
       "/category/:caty": {
         "path": "/category/:caty",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/category/popular-with-women",
@@ -84138,8 +84139,7 @@ export default {
       "/pornstar/:username/:language?/:sort?": {
         "path": "/pornstar/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/pornstar/june-liu/www/mr",
@@ -84250,8 +84250,7 @@ export default {
       "/search/:keyword": {
         "path": "/search/:keyword",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/search/stepsister",
