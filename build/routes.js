@@ -46054,8 +46054,7 @@ export default {
           "nczitzk"
         ],
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "radar": [
           {
